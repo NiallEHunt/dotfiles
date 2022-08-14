@@ -1,3 +1,6 @@
+# Not sure if this would actually work, but it's a start.
+# This script will install fish, fisher, tide and z.
+# It may not work by itself, but it has all the commands you need to run
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
