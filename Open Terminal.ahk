@@ -7,23 +7,24 @@ SetWorkingDir %A_ScriptDir%     ; Ensures a consistent starting directory.
 
 global PreviousActiveWindow
 
-^!t::
+SwitchToWindowsTerminal()
+{
+	DetectHiddenWindows, On
 
-DetectHiddenWindows, On
-
-if (WinExist("ahk_class CASCADIA_HOSTING_WINDOW_CLASS")) {
-	if(WinActive("ahk_class CASCADIA_HOSTING_WINDOW_CLASS")) {
-		WinActivate, ahk_id %PreviousActiveWindow%
+	if (WinExist("ahk_class CASCADIA_HOSTING_WINDOW_CLASS")) {
+		if(WinActive("ahk_class CASCADIA_HOSTING_WINDOW_CLASS")) {
+			WinActivate, ahk_id %PreviousActiveWindow%
+		} else {
+			WinGet, PreviousActiveWindow, , A ; 'A' for currently active window
+			WinActivate, ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+		}
 	} else {
 		WinGet, PreviousActiveWindow, , A ; 'A' for currently active window
-		WinActivate, ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+		Run *runas wt
 	}
-} else {
-	TerminalLink = "C:\Users\Niall\AppData\Local\Microsoft\WindowsApps\wt.exe"
 
-    WinGet, PreviousActiveWindow, , A ; 'A' for currently active window
-    Run *runas %TerminalLink%
+	DetectHiddenWindows, Off
 }
 
-DetectHiddenWindows, Off
-Return
+; Ctrl+Alt+t to launch/restore Windows Terminal
+^!t::SwitchToWindowsTerminal()
