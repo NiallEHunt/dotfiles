@@ -11,3 +11,7 @@ Terminal:
 - Tomorrow Night Bright as the fish theme 
 - Minimalist as the fish prompt
 - [Neovim](https://neovim.io/) as terminal editor
+
+
+# Tools
+- [Volta](https://volta.sh/) for managing JavaScript command-line tool versions.
