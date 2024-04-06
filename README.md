@@ -68,4 +68,5 @@ systemctl enable --now tlp.service
 Links with more details:
 - https://linuxconfig.org/how-to-optimize-laptop-battery-life-with-tlp-on-linux?swcfpc=1
 - https://askubuntu.com/questions/285434/is-there-a-power-saving-application-similar-to-jupiter/285681#285681
+- https://www.fosslinux.com/135830/how-to-fine-tune-power-management-in-ubuntu-using-tlp.htm
 
