@@ -18,7 +18,7 @@ Terminal:
 - [Volta](https://volta.sh/) for managing JavaScript command-line tool versions.
 - [powertop](https://wiki.archlinux.org/title/Powertop) an intel tool for measuring and minimising power consumption
 - [TLP](https://linrunner.de/tlp/index.html) a tool for optimizing linux laptop battery life
-
+- [The Fuck](https://github.com/nvbn/thefuck) a command-line tool to correct your previously inputted console command
 
 ## powertop
 Install powertop with your distro's package manager. e.g. 
