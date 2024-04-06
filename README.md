@@ -51,3 +51,21 @@ systemctl enable powertop.service
 ```
 
 I'm not sure which is the correct one or if it's a case where either work.
+
+## TLP
+TLP is a powerful tool to help optimise battery life. There are plenty of great articles about using it and the config file for TLP is well commented for each setting. In general I would leave most of the settings at their defaults. Out of the box it should help with battery life but has lots of in depth configuration to tailor it to your system.
+
+Install
+```bash
+sudo apt install tlp tlp-rdw
+```
+
+Enable TLP service
+```bash
+systemctl enable --now tlp.service
+```
+
+Links with more details:
+- https://linuxconfig.org/how-to-optimize-laptop-battery-life-with-tlp-on-linux?swcfpc=1
+- https://askubuntu.com/questions/285434/is-there-a-power-saving-application-similar-to-jupiter/285681#285681
+
