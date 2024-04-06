@@ -1,0 +1,22 @@
+live_config_reload = true
+
+# This section tells Alacritty to run tmux on startup and try to connect to a session named base.
+# If there is no session named base it will create a new session with that name.
+[shell]
+program = "/usr/bin/fish"
+args = ["--login", "-c", "tmux a -t base || tmux new -s base"]
+
+[font]
+
+normal.family = "Hack Nerd Font Mono"
+bold.family = "Hack Nerd Font Mono"
+italic.family = "Hack Nerd Font Mono"
+bold_italic.family = "Hack Nerd Font Mono"
+
+size = 15.0
+
+[window]
+
+startup_mode = "Windowed"
+dimensions.columns = 100
+dimensions.lines = 30
