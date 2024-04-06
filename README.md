@@ -16,7 +16,7 @@ Terminal:
 
 # Tools
 - [Volta](https://volta.sh/) for managing JavaScript command-line tool versions.
-- powertop an intel tool for measuring and minimising power consumption
+- [powertop](https://wiki.archlinux.org/title/Powertop) an intel tool for measuring and minimising power consumption
 - [TLP](https://linrunner.de/tlp/index.html) a tool for optimizing linux laptop battery life
 
 
