@@ -1,7 +1,11 @@
 This repo is a collection of the tools I use and some dotfiles and configuration files for those tools. 
+# Table of contents
+1. [Current setup](#current-setup)
+    1. [Linux](#linux)
+    2. [Mac](#mac)
 
-# Current setup
-## Linux
+# Current setup <a name="current-setup"></a>
+## Linux <a name="linux"></a>
 Terminal: 
 - [Alacritty](https://github.com/alacritty/alacritty) as the terminal application
 - [fish](https://fishshell.com/) as the shell
@@ -72,7 +76,7 @@ Links with more details:
 - https://askubuntu.com/questions/285434/is-there-a-power-saving-application-similar-to-jupiter/285681#285681
 - https://www.fosslinux.com/135830/how-to-fine-tune-power-management-in-ubuntu-using-tlp.htm
 
-## Mac
+## Mac <a name="mac"></a>
 Terminal:
 - [iTerm2](https://iterm2.com/) as the terminal application
 - [fish](https://fishshell.com/) as the shell
