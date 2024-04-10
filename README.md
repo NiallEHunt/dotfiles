@@ -14,13 +14,13 @@ Terminal:
 - [Neovim](https://neovim.io/) as terminal editor
 
 
-# Tools
+### Tools
 - [Volta](https://volta.sh/) for managing JavaScript command-line tool versions.
 - [powertop](https://wiki.archlinux.org/title/Powertop) an intel tool for measuring and minimising power consumption
 - [TLP](https://linrunner.de/tlp/index.html) a tool for optimizing linux laptop battery life
 - [The Fuck](https://github.com/nvbn/thefuck) a command-line tool to correct your previously inputted console command
 
-## powertop
+#### powertop
 Install powertop with your distro's package manager. e.g. 
 ```bash
 sudo apt install powertop
@@ -52,7 +52,7 @@ systemctl enable powertop.service
 
 I'm not sure which is the correct one or if it's a case where either work.
 
-## TLP
+#### TLP
 TLP is a powerful tool to help optimise battery life. There are plenty of great articles about using it and the config file for TLP is well commented for each setting. In general I would leave most of the settings at their defaults. Out of the box it should help with battery life but has lots of in depth configuration to tailor it to your system.
 
 I've included my current tlp-conf file, this is specific to my laptop. You should always start with the defaults and customise to your system.
@@ -72,3 +72,20 @@ Links with more details:
 - https://askubuntu.com/questions/285434/is-there-a-power-saving-application-similar-to-jupiter/285681#285681
 - https://www.fosslinux.com/135830/how-to-fine-tune-power-management-in-ubuntu-using-tlp.htm
 
+## Mac
+Terminal:
+- [iTerm2](https://iterm2.com/) as the terminal application
+- [fish](https://fishshell.com/) as the shell
+    - [fisher](https://github.com/jorgebucaran/fisher) package manager for fish
+    - [z](https://github.com/jethrokuan/z) fish port of z for directory jumping	
+- [tmux](https://github.com/tmux/tmux/wiki) as the terminal multiplexer
+- [Hack Nerd Font](https://www.programmingfonts.org/#hack) as the fonthttps://iterm2.com/
+- Tomorrow Night Bright as the fish theme 
+- Minimalist as the fish prompt
+- [Neovim](https://neovim.io/) as terminal editor
+
+### Tools
+- [Volta](https://volta.sh/) for managing JavaScript command-line tool versions.
+- [The Fuck](https://github.com/nvbn/thefuck) a command-line tool to correct your previously inputted console command
+- [Raycast](https://www.raycast.com/) a smart replacement for MacOS' spotlight tool
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) a keyboard customiser for MacOS
