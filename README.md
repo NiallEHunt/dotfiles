@@ -6,7 +6,10 @@ This repo is a collection of the tools I use and some dotfiles and configuration
 
 # Current setup <a name="current-setup"></a>
 ## Linux <a name="linux"></a>
-Terminal: 
+### Distro
+I currently use [Linux Mint](https://linuxmint.com/) as my distro
+
+### Terminal 
 - [Alacritty](https://github.com/alacritty/alacritty) as the terminal application
 - [fish](https://fishshell.com/) as the shell
     - [fisher](https://github.com/jorgebucaran/fisher) package manager for fish
@@ -77,7 +80,7 @@ Links with more details:
 - https://www.fosslinux.com/135830/how-to-fine-tune-power-management-in-ubuntu-using-tlp.htm
 
 ## Mac <a name="mac"></a>
-Terminal:
+### Terminal
 - [iTerm2](https://iterm2.com/) as the terminal application
 - [fish](https://fishshell.com/) as the shell
     - [fisher](https://github.com/jorgebucaran/fisher) package manager for fish
