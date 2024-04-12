@@ -83,7 +83,7 @@ Terminal:
     - [fisher](https://github.com/jorgebucaran/fisher) package manager for fish
     - [z](https://github.com/jethrokuan/z) fish port of z for directory jumping	
 - [tmux](https://github.com/tmux/tmux/wiki) as the terminal multiplexer
-- [Hack Nerd Font](https://www.programmingfonts.org/#hack) as the fonthttps://iterm2.com/
+- [Hack Nerd Font](https://www.programmingfonts.org/#hack) as the font
 - Tomorrow Night Bright as the fish theme 
 - Minimalist as the fish prompt
 - [Neovim](https://neovim.io/) as terminal editor
